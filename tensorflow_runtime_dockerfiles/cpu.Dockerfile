@@ -47,6 +47,10 @@ EXPOSE 8888
 
 CMD ["bash", "-c", "source /etc/bash.bashrc && jupyter notebook --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root"]
 
+FROM jupyter as pytorch
+RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+RUN pip install numpy pandas scikit-learn matplotlib seaborn
+
 FROM base as test
 
 COPY test.import_cpu.sh /test.import_cpu.sh

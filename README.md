@@ -88,7 +88,7 @@ Owner | Build Type | Status | Artifacts
 AMD | **Linux AMD ROCm GPU** Nightly         | [![Build Status](http://ml-ci.amd.com:21096/job/tensorflow/job/nightly-rocmfork-develop-upstream/job/nightly-build-whl/badge/icon)](http://ml-ci.amd.com:21096/job/tensorflow/job/nightly-rocmfork-develop-upstream/job/nightly-build-whl)   | [Nightly](http://ml-ci.amd.com:21096/job/tensorflow/job/nightly-rocmfork-develop-upstream/job/nightly-build-whl/lastSuccessfulBuild/)
 AMD | **Linux AMD ROCm GPU** Stable : TF 2.x | [![Build Status](http://ml-ci.amd.com:21096/job/tensorflow/job/release-rocmfork-r212-rocm-enhanced/job/release-build-whl/badge/icon)](http://ml-ci.amd.com:21096/job/tensorflow/job/release-rocmfork-r212-rocm-enhanced/job/release-build-whl/) | [Release 2.12](http://ml-ci.amd.com:21096/job/tensorflow/job/release-rocmfork-r212-rocm-enhanced/job/release-build-whl/lastSuccessfulBuild/)
 AMD | **Linux AMD ROCm GPU** Stable : TF 1.x | [![Build Status](http://ml-ci.amd.com:21096/job/tf-develop-upstream-releases/job/tensorflow-upstream-rel1.15-enhanced-nightly/badge/icon)](http://ml-ci.amd.com:21096/job/tf-develop-upstream-releases/job/tensorflow-upstream-rel1.15-enhanced-nightly/)   | [Release 1.15](http://ml-ci.amd.com:21096/job/tf-develop-upstream-releases/job/tensorflow-upstream-rel1.15-enhanced-nightly/lastSuccessfulBuild/)
-AMD | **Linux AMD ZenDNN Plug-in CPU** Stable : TF 2.x | [![Build Status](http://ml-ci.amd.com:21096/view/ZenDNN/job/zendnn/job/tensorflow-zendnn-plugin-build-whl-release/badge/icon)](http://ml-ci.amd.com:21096/view/ZenDNN/job/zendnn/job/tensorflow-zendnn-plugin-build-whl-release/) | [Release 2.x](http://ml-ci.amd.com:21096/view/ZenDNN/job/zendnn/job/tensorflow-zendnn-plugin-build-whl-release/)
+AMD | **Linux AMD ZenDNN Plug-in CPU** Stable : TF 2.x | No Badge | [Release 2.x](https://pypi.org/project/zentf/)
 IBM | **Linux ppc64le CPU** Nightly | [![Build Status](https://powerci.osuosl.org/job/TensorFlow_PPC64LE_CPU_Build/badge/icon)](https://powerci.osuosl.org/job/TensorFlow_PPC64LE_CPU_Build/) | [Nightly](https://powerci.osuosl.org/job/TensorFlow_PPC64LE_CPU_Nightly_Artifact/)
 IBM | **Linux ppc64le CPU** Stable: TF 1.x | [![Build Status](https://powerci.osuosl.org/job/TensorFlow_PPC64LE_CPU_Release_Build/badge/icon)](https://powerci.osuosl.org/job/TensorFlow_PPC64LE_CPU_Release_Build/) | Release [1.15](https://powerci.osuosl.org/job/TensorFlow_PPC64LE_CPU_Release_Build/)
 IBM | **Linux ppc64le CPU** Stable: TF 2.x | [![Build Status](https://powerci.osuosl.org/job/TensorFlow2_PPC64LE_CPU_Release_Build/badge/icon)](https://powerci.osuosl.org/job/TensorFlow2_PPC64LE_CPU_Release_Build/) | Release [2.x](https://powerci.osuosl.org/job/TensorFlow2_PPC64LE_CPU_Release_Build/)
@@ -100,15 +100,12 @@ IBM | **Linux s390x CPU** Stable Release | [![Build Status](http://ibmz-ci.osuos
 Intel | **Linux CPU with Intel oneDNN** Stable Release 1.x | No Badge | Release [1.15](https://pypi.org/project/intel-tensorflow/1.15.2/)
 Intel | **Linux CPU with Intel oneDNN** Stable Release 2.x | No Badge | Release [2.x](https://pypi.org/project/intel-tensorflow/)
 Intel | **Windows CPU with Intel oneDNN** Stable Release 2.x | No Badge | Release [2.x](https://pypi.org/project/intel-tensorflow/)
-Linaro | **Linux aarch64 CPU** Nightly | [![Build Status](https://ci.linaro.org/jenkins/buildStatus/icon?job=ldcg-python-manylinux-tensorflow-nightly)](https://ci.linaro.org/jenkins/job/ldcg-python-manylinux-tensorflow-nightly/) | [Nightly](http://snapshots.linaro.org/ldcg/python/tensorflow-manylinux-nightly/latest/)
-Linaro | **Linux aarch64 CPU** Stable Release | [![Build Status](https://ci.linaro.org/jenkins/buildStatus/icon?job=ldcg-python-manylinux-tensorflow)](https://ci.linaro.org/jenkins/job/ldcg-python-manylinux-tensorflow/) | Release [1.x & 2.x](http://snapshots.linaro.org/ldcg/python/tensorflow-manylinux/)
 
 
 ### TensorFlow Containers
 
 Owner | Container Type | Status | Artifacts
 ---: | --- | :---: | :---
-Linaro | **TensorFlow aarch64 Neoverse-N1 CPU** Stable <br> Debian | Static | Release [2.3](https://hub.docker.com/r/linaro/tensorflow-arm-neoverse-n1)
 Arm | **TensorFlow AArch64 Neoverse-N1 CPU** Stable | Static | [Docker Hub](https://hub.docker.com/r/armswdev/tensorflow-arm-neoverse-n1)
 AMD| **Linux ROCm GPU** Stable | Static | [Docker Hub](https://hub.docker.com/r/rocm/tensorflow)
 Intel | **Linux CPU with Intel oneDNN** Stable | Static | [Docker Hub](https://hub.docker.com/r/intel/intel-optimized-tensorflow)
